@@ -45,6 +45,31 @@
     font-size: 0.9rem;
 }
 
+.down-button {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+    background-color: #57DD79;
+    border-radius: 20px;
+    padding: 8px 16px 8px 20px;
+    font-weight: bold;;
+}
+
+.down-img {
+    width: 1.2rem;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 0.6rem;
+}
+
+.down-button:hover {
+    cursor: pointer;
+}
+
 @media (max-width: 600px) {
     .header-menu {
         display: none;

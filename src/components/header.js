@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/header.css";
 import logo from "../assets/images/logo.jpg";
+import download from "../assets/images/download.png";
 
 const Header = () => {
 
@@ -13,7 +14,7 @@ const Header = () => {
                 <div className="header-menu">문의하기</div>
             </div>
             <div className="right-header">
-                <input className="header-input" type="text" placeholder="주변 행사를 찾아보세요" />
+                <button className="down-button">앱 다운로드<img className="down-img" src={download} alt="download button" /></button>
             </div>
             
         </div>
