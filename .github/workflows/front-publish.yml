@@ -43,4 +43,4 @@ jobs:
 
           # Pull and run the application container
           docker pull ${{ secrets.DOCKER_USERNAME }}/ttt-web
-          docker run -d --name ttt-web ${{ secrets.DOCKER_USERNAME }}/ttt-web
+          docker run -d -p 80:80 --name ttt-web ${{ secrets.DOCKER_USERNAME }}/ttt-web
